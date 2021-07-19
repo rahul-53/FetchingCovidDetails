@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="date"
+            />
+        <TextView
+            android:id="@+id/tvpPositive"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="positive"
+            />
+        <TextView
+            android:id="@+id/tvNegative"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="negative"
+            />
+        <TextView
+            android:id="@+id/tvHospitalized"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="hospitalizedCurrently"
+            />
+        <TextView
+            android:id="@+id/tvOnVentilator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="onVentilatorCurrently"
+            />
+        <TextView
+            android:id="@+id/tvDeath"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="death"
+            />
+        <TextView
+            android:id="@+id/tvDateCheckedIn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Date Checked In"
+            />
+
+    </LinearLayout>
+
+</androidx.recyclerview.widget.RecyclerView>
